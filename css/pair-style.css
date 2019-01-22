@@ -86,16 +86,17 @@ footer {
 }
 
 .ecosystem-node {
-	background-color: black;
+    background-color: black;
     color: white;
-    padding: 50px;
+    padding: 52px;
     border-radius: 500px;
     width: 185px;
     height: 185px;
     font-weight: 900;
     margin: auto;
     display: block;
-    font-style: .9em;
+    font-size: .9em;
+    padding-top: 62px;
 }
 
 .ecosystem-description-node {
@@ -428,3 +429,85 @@ footer {
     padding-top: 15px;
     font-weight: 900;
 }
+
+@media (max-width: 992px) {
+
+footer small {
+	line-height: 4em;
+}
+
+.active {
+	border: none
+}
+
+.hero-content {
+    padding: 40px;
+}
+
+.hero-content h1 {
+	font-size: 2em;
+    line-height: 1.8em;
+}
+
+.trips-section {
+    padding: 20px;
+    width: 100%;
+    font-size: .8em;
+}
+
+.section-content h1 {
+    font-size: 1.8em;
+}
+
+.ecosystem-main {
+    margin-bottom: 24px;
+}
+
+.how-section h1 {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.platform-hero {
+    padding: 40px;
+}
+
+.platform-content {
+    padding: 5px;
+    padding-top: 24px;
+}
+
+.platform-content ul {
+    font-size: .8em;
+}
+
+.esquema-intro {
+    text-align: center;
+}
+
+.esquema-rutax {
+    margin-top: 12px;
+}
+
+.why-hero {
+    padding: 40px;
+}
+
+.why-cities-description {
+    margin-top: 15px;
+}
+
+.why-advisor-city {
+    margin-top: 22px;
+}
+
+.why-cities-description h3 {
+    font-size: 1em;
+    padding: 5px;
+}
+
+.team-hero {
+    padding: 40px;
+}
+  }
